@@ -1,0 +1,17 @@
+{
+  "name": "validate-i18n",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "validate": "node --loader ts-node/esm validator.ts ../messages/ar.json ../messages/"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^22.13.1",
+    "chalk": "^5.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "checkJs": false,
+
+    // Added to improve code maintainability
+    
+    "strictNullChecks": true, // Enable strict null checks
+    "strictFunctionTypes": true, // Enforce strict function types
+    "strictPropertyInitialization": true, // Report errors on uninitialized properties
+    "strictBindCallApply": true, // Enforce strict binding, calling, and applying of functions
+    "alwaysStrict": true, // Enforce strict mode for all functions
+    "noImplicitOverride": true, // Prevent overriding methods without explicit override keyword
+    "noUnusedLocals": true, // Report errors on unused locals
+    "noUnusedParameters": true, // Report errors on unused parameters
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names
+    "noUncheckedIndexedAccess": true, // Enable strict checking of indexed access
+    "noFallthroughCasesInSwitch": true, // Report errors on fallthrough cases in switch statements
+    "noImplicitAny": false, // Allow implicit any types
+    "useUnknownInCatchVariables": true, // Use unknown in catch variables
+    // "exactOptionalPropertyTypes": true, // Enforce exact optional property types
+    "noPropertyAccessFromIndexSignature": true, // Prevent property access from index signatures
+    "noImplicitReturns": false, // Allow implicit returns
+    "allowUnreachableCode": false, // Allow unreachable code
+    "allowUnusedLabels": false, // Allow unused labels
+    
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
