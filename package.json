@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "validate": "node --loader ts-node/esm validator.ts ../messages/ar.json ../messages/"
+    "validate": "node --loader ts-node/esm validator.ts ../messages/en.json ../messages/"
   },
   "author": "",
   "license": "ISC",
